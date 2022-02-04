@@ -5,12 +5,14 @@ import ChevronDownIcon from "@heroicons/react/outline/ChevronDownIcon";
 import BellIcon from "@heroicons/react/outline/BellIcon";
 import UserCircleIcon from '@heroicons/react/solid/UserCircleIcon';
 import ViewGridIcon from '@heroicons/react/solid/ViewGridIcon'
+import GmailLogo from './gmail-icon.svg'
 
 const Navbar = () => {
   return (
     <div className="w-full flex justify-between items-center px-4 py-3">
       <div className="logo flex gap-5 justify-start items-center text-gray-700">
         <MenuIcon className="h-5 w-5" />
+        <img src={GmailLogo} className="h-10 w-10" />
         <h2 className="text-2xl">Gmail</h2>
       </div>
       <div className="searchbar">
